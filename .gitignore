@@ -1,0 +1,4 @@
+/.gradle/
+/bin/
+/cloud.properties
+/test-output/
