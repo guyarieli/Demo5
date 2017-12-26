@@ -19,6 +19,7 @@ public class BaseTest {
 		dc.setCapability("reportDirectory", "reports");
 		dc.setCapability("reportFormat", "xml");
 		dc.setCapability("stream", "Demo5");
+		dc.setCapability("build.number", System.getenv("BUILD_NUMBER"));
 		
 		dc.setCapability("accessKey", getProperty("accessKey", cloudProperties));
 
